@@ -38,7 +38,8 @@ static RuneBuffer hbrunebuffer = { 0, NULL };
  * e. g.
  * FEATURE('c', 'a', 'l', 't'), FEATURE('d', 'l', 'i', 'g')
  */
-hb_feature_t features[] = { };
+// hb_feature_t features[] = { };
+hb_feature_t features[] = { FEATURE('o', 'n', 'u', 'm'), FEATURE('z', 'e', 'r', 'o') };
 // hb_feature_t features[] = { FEATURE('s', 's', '0', '1') };
 // hb_feature_t features[] = { FEATURE('c', 'v', '1', '0') };
 
