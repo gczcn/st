@@ -40,8 +40,8 @@ static RuneBuffer hbrunebuffer = { 0, NULL };
  */
 // hb_feature_t features[] = { };
 // hb_feature_t features[] = { FEATURE('o', 'n', 'u', 'm'), FEATURE('z', 'e', 'r', 'o') };
-hb_feature_t features[] = { FEATURE('o', 'n', 'u', 'm') };
-// hb_feature_t features[] = { FEATURE('s', 's', '0', '1') };
+// hb_feature_t features[] = { FEATURE('o', 'n', 'u', 'm') };
+hb_feature_t features[] = { FEATURE('s', 's', '0', '1') };
 // hb_feature_t features[] = { FEATURE('c', 'v', '1', '0') };
 
 void
